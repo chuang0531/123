@@ -363,53 +363,52 @@
 
     <script>
         const questions = [
-            {
-                question: "平時喝飲料，你習慣選擇哪種方式？",
-                options: [
-                    { text: "自備環保杯", score: 3 },
-                    { text: "自備環保杯但使用塑膠吸管", score: 2 },
-                    { text: "使用塑膠杯自備環保吸管", score: 1 },
-                    { text: "使用點家提供的塑膠杯及吸管", score: 0 }
-                ]
-            },
-            {
-                question: "日常生活中，你最常的交通工具？",
-                options: [
-                    { text: "騎腳踏車或走路", score: 3 },
-                    { text: "搭乘大眾運輸", score: 2 },
-                    { text: "開車", score: 1 },
-                    { text: "騎機車", score: 0 }
-                ]
-            },
-            {
-                question: "用餐時你會選擇？",
-                options: [
-                    { text: "自備環保餐具", score: 3 },
-                    { text: "使用可分解材質的餐具", score: 2 },
-                    { text: "使用一次性塑膠餐具", score: 1 },
-                    { text: "沒有注意", score: 0 }
-                ]
-            },
-            {
-                question: "你在購物時會選擇什麼樣的產品？",
-                options: [
-                    { text: "環保標章的產品", score: 3 },
-                    { text: "環保材質包裝的產品", score: 2 },
-                    { text: "CP值高的產品", score: 1 },
-                    { text: "只選擇包裝美觀的產品", score: 0 }
-                ]
-            },
-            {
-                question: "你對低碳經濟的看法？",
-                options: [
-                    { text: "積極實踐中！", score: 3 },
-                    { text: "開始學習", score: 2 },
-                    { text: "有興趣還沒開始", score: 1 },
-                    { text: "沒聽過/不太懂", score: 0 }
-                ]
-                ]
-            }
-        ];
+    {
+        question: "平時喝飲料，你習慣選擇哪種方式？",
+        options: [
+            { text: "自備環保杯", score: 3 },
+            { text: "自備環保杯但使用塑膠吸管", score: 2 },
+            { text: "使用塑膠杯自備環保吸管", score: 1 },
+            { text: "使用店家提供的塑膠杯及吸管", score: 0 }
+        ]
+    },
+    {
+        question: "日常生活中，你最常的交通工具？",
+        options: [
+            { text: "騎腳踏車或走路", score: 3 },
+            { text: "搭乘大眾運輸", score: 2 },
+            { text: "開車", score: 1 },
+            { text: "騎機車", score: 0 }
+        ]
+    },
+    {
+        question: "用餐時你會選擇？",
+        options: [
+            { text: "自備環保餐具", score: 3 },
+            { text: "使用可分解材質的餐具", score: 2 },
+            { text: "使用一次性塑膠餐具", score: 1 },
+            { text: "沒有注意", score: 0 }
+        ]
+    },
+    {
+        question: "你在購物時會選擇什麼樣的產品？",
+        options: [
+            { text: "環保標章的產品", score: 3 },
+            { text: "環保材質包裝的產品", score: 2 },
+            { text: "CP值高的產品", score: 1 },
+            { text: "只選擇包裝美觀的產品", score: 0 }
+        ]
+    },
+    {
+        question: "你對低碳經濟的看法？",
+        options: [
+            { text: "積極實踐中！", score: 3 },
+            { text: "開始學習", score: 2 },
+            { text: "有興趣還沒開始", score: 1 },
+            { text: "沒聽過/不太懂", score: 0 }
+        ]
+    }
+];
 
         const personalityTypes = {
             warrior: {
